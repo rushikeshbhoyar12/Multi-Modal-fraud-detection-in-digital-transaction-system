@@ -1,0 +1,9 @@
+,count
+normal_transaction_patterns,52
+moderate_behavioral_risk,52
+high_text_risk,14
+high_graph_risk,11
+high_overall_fraud_probability,9
+high_behavioral_risk,6
+elevated_fraud_probability,4
+moderate_graph_risk,1

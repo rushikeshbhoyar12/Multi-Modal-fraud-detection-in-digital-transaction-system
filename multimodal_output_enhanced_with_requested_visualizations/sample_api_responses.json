@@ -1,0 +1,742 @@
+[
+  {
+    "transaction_id": "TXN_000001",
+    "timestamp": "2025-09-18T18:15:19.858752",
+    "fraud_assessment": {
+      "probability": 0.0431,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.831,
+      "text_score": 0,
+      "behavioral_score": 0.4177,
+      "transaction_score": 0.0199
+    },
+    "risk_factors": [
+      "high_graph_risk"
+    ],
+    "explanation": "Low fraud probability (4.3%) indicates normal transaction. High risk indicators in: graph.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": [
+        "Primary concern: graph analysis shows 83.1% risk",
+        "Network analysis indicates suspicious connection patterns"
+      ]
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.858752"
+    }
+  },
+  {
+    "transaction_id": "TXN_000002",
+    "timestamp": "2025-09-18T18:15:19.859143",
+    "fraud_assessment": {
+      "probability": 0.0436,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0,
+      "text_score": 0,
+      "behavioral_score": 0.3443,
+      "transaction_score": 0.0378
+    },
+    "risk_factors": [
+      "normal_transaction_patterns"
+    ],
+    "explanation": "Low fraud probability (4.4%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.859143"
+    }
+  },
+  {
+    "transaction_id": "TXN_000003",
+    "timestamp": "2025-09-18T18:15:19.859487",
+    "fraud_assessment": {
+      "probability": 0.0588,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0001,
+      "text_score": 0,
+      "behavioral_score": 0.5373,
+      "transaction_score": 0.0288
+    },
+    "risk_factors": [
+      "moderate_behavioral_risk"
+    ],
+    "explanation": "Low fraud probability (5.9%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.859487"
+    }
+  },
+  {
+    "transaction_id": "TXN_000004",
+    "timestamp": "2025-09-18T18:15:19.859913",
+    "fraud_assessment": {
+      "probability": 0.0547,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0098,
+      "text_score": 0,
+      "behavioral_score": 0.4491,
+      "transaction_score": 0.0205
+    },
+    "risk_factors": [
+      "normal_transaction_patterns"
+    ],
+    "explanation": "Low fraud probability (5.5%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.859913"
+    }
+  },
+  {
+    "transaction_id": "TXN_000005",
+    "timestamp": "2025-09-18T18:15:19.860306",
+    "fraud_assessment": {
+      "probability": 0.8014,
+      "risk_category": "HIGH",
+      "risk_score": 4,
+      "confidence_level": "HIGH",
+      "decision": "BLOCK"
+    },
+    "modality_analysis": {
+      "risk_score": 4,
+      "graph_score": 0.0002,
+      "text_score": 0,
+      "behavioral_score": 0.4094,
+      "transaction_score": 0.0188
+    },
+    "risk_factors": [
+      "high_overall_fraud_probability"
+    ],
+    "explanation": "High fraud probability (80.1%) detected across multiple indicators.",
+    "recommended_actions": [
+      "Manual review required",
+      "Additional authentication",
+      "Hold payment pending review"
+    ],
+    "investigation": {
+      "requires_human_review": true,
+      "priority_level": "HIGH",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.860306"
+    }
+  },
+  {
+    "transaction_id": "TXN_000006",
+    "timestamp": "2025-09-18T18:15:19.860660",
+    "fraud_assessment": {
+      "probability": 0.1411,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.2976,
+      "text_score": 1,
+      "behavioral_score": 0.4133,
+      "transaction_score": 0.0395
+    },
+    "risk_factors": [
+      "high_text_risk"
+    ],
+    "explanation": "Low fraud probability (14.1%) indicates normal transaction. High risk indicators in: text.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": [
+        "Primary concern: text analysis shows 100.0% risk",
+        "Communication analysis reveals suspicious content patterns"
+      ]
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.860660"
+    }
+  },
+  {
+    "transaction_id": "TXN_000007",
+    "timestamp": "2025-09-18T18:15:19.861031",
+    "fraud_assessment": {
+      "probability": 0.0427,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0006,
+      "text_score": 0,
+      "behavioral_score": 0.248,
+      "transaction_score": 0.0188
+    },
+    "risk_factors": [
+      "normal_transaction_patterns"
+    ],
+    "explanation": "Low fraud probability (4.3%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.861031"
+    }
+  },
+  {
+    "transaction_id": "TXN_000008",
+    "timestamp": "2025-09-18T18:15:19.861374",
+    "fraud_assessment": {
+      "probability": 0.1193,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0003,
+      "text_score": 0,
+      "behavioral_score": 0.3711,
+      "transaction_score": 0.0129
+    },
+    "risk_factors": [
+      "normal_transaction_patterns"
+    ],
+    "explanation": "Low fraud probability (11.9%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.861374"
+    }
+  },
+  {
+    "transaction_id": "TXN_000009",
+    "timestamp": "2025-09-18T18:15:19.861689",
+    "fraud_assessment": {
+      "probability": 0.806,
+      "risk_category": "HIGH",
+      "risk_score": 4,
+      "confidence_level": "HIGH",
+      "decision": "BLOCK"
+    },
+    "modality_analysis": {
+      "risk_score": 4,
+      "graph_score": 0.0185,
+      "text_score": 0,
+      "behavioral_score": 0.4936,
+      "transaction_score": 0.0337
+    },
+    "risk_factors": [
+      "high_overall_fraud_probability"
+    ],
+    "explanation": "High fraud probability (80.6%) detected across multiple indicators.",
+    "recommended_actions": [
+      "Manual review required",
+      "Additional authentication",
+      "Hold payment pending review"
+    ],
+    "investigation": {
+      "requires_human_review": true,
+      "priority_level": "HIGH",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.861689"
+    }
+  },
+  {
+    "transaction_id": "TXN_000010",
+    "timestamp": "2025-09-18T18:15:19.861992",
+    "fraud_assessment": {
+      "probability": 0.0345,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0077,
+      "text_score": 0,
+      "behavioral_score": 0.5119,
+      "transaction_score": 0.0188
+    },
+    "risk_factors": [
+      "moderate_behavioral_risk"
+    ],
+    "explanation": "Low fraud probability (3.5%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.861992"
+    }
+  },
+  {
+    "transaction_id": "TXN_000011",
+    "timestamp": "2025-09-18T18:15:19.862294",
+    "fraud_assessment": {
+      "probability": 0.0331,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0,
+      "text_score": 0,
+      "behavioral_score": 0.3061,
+      "transaction_score": 0.0154
+    },
+    "risk_factors": [
+      "normal_transaction_patterns"
+    ],
+    "explanation": "Low fraud probability (3.3%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.862294"
+    }
+  },
+  {
+    "transaction_id": "TXN_000012",
+    "timestamp": "2025-09-18T18:15:19.862607",
+    "fraud_assessment": {
+      "probability": 0.0372,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0059,
+      "text_score": 0,
+      "behavioral_score": 0.3848,
+      "transaction_score": 0.0078
+    },
+    "risk_factors": [
+      "normal_transaction_patterns"
+    ],
+    "explanation": "Low fraud probability (3.7%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.862607"
+    }
+  },
+  {
+    "transaction_id": "TXN_000013",
+    "timestamp": "2025-09-18T18:15:19.862917",
+    "fraud_assessment": {
+      "probability": 0.1166,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0007,
+      "text_score": 0,
+      "behavioral_score": 0.5197,
+      "transaction_score": 0.0288
+    },
+    "risk_factors": [
+      "moderate_behavioral_risk"
+    ],
+    "explanation": "Low fraud probability (11.7%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.862917"
+    }
+  },
+  {
+    "transaction_id": "TXN_000014",
+    "timestamp": "2025-09-18T18:15:19.863242",
+    "fraud_assessment": {
+      "probability": 0.0637,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0152,
+      "text_score": 0,
+      "behavioral_score": 0.4215,
+      "transaction_score": 0.0644
+    },
+    "risk_factors": [
+      "normal_transaction_patterns"
+    ],
+    "explanation": "Low fraud probability (6.4%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.863242"
+    }
+  },
+  {
+    "transaction_id": "TXN_000015",
+    "timestamp": "2025-09-18T18:15:19.863573",
+    "fraud_assessment": {
+      "probability": 0.8007,
+      "risk_category": "HIGH",
+      "risk_score": 4,
+      "confidence_level": "HIGH",
+      "decision": "BLOCK"
+    },
+    "modality_analysis": {
+      "risk_score": 4,
+      "graph_score": 0.0,
+      "text_score": 0,
+      "behavioral_score": 0.4822,
+      "transaction_score": 0.1953
+    },
+    "risk_factors": [
+      "high_overall_fraud_probability"
+    ],
+    "explanation": "High fraud probability (80.1%) detected across multiple indicators.",
+    "recommended_actions": [
+      "Manual review required",
+      "Additional authentication",
+      "Hold payment pending review"
+    ],
+    "investigation": {
+      "requires_human_review": true,
+      "priority_level": "HIGH",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.863573"
+    }
+  },
+  {
+    "transaction_id": "TXN_000016",
+    "timestamp": "2025-09-18T18:15:19.863931",
+    "fraud_assessment": {
+      "probability": 0.0371,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0,
+      "text_score": 0,
+      "behavioral_score": 0.5592,
+      "transaction_score": 0.0122
+    },
+    "risk_factors": [
+      "moderate_behavioral_risk"
+    ],
+    "explanation": "Low fraud probability (3.7%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.863931"
+    }
+  },
+  {
+    "transaction_id": "TXN_000017",
+    "timestamp": "2025-09-18T18:15:19.864300",
+    "fraud_assessment": {
+      "probability": 0.8149,
+      "risk_category": "HIGH",
+      "risk_score": 4,
+      "confidence_level": "HIGH",
+      "decision": "BLOCK"
+    },
+    "modality_analysis": {
+      "risk_score": 4,
+      "graph_score": 0.9999,
+      "text_score": 0,
+      "behavioral_score": 0.5609,
+      "transaction_score": 0.0213
+    },
+    "risk_factors": [
+      "high_graph_risk",
+      "moderate_behavioral_risk",
+      "high_overall_fraud_probability"
+    ],
+    "explanation": "High fraud probability (81.5%) detected across multiple indicators. High risk indicators in: graph.",
+    "recommended_actions": [
+      "Manual review required",
+      "Additional authentication",
+      "Hold payment pending review"
+    ],
+    "investigation": {
+      "requires_human_review": true,
+      "priority_level": "HIGH",
+      "investigation_notes": [
+        "Primary concern: graph analysis shows 100.0% risk",
+        "Network analysis indicates suspicious connection patterns"
+      ]
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.864300"
+    }
+  },
+  {
+    "transaction_id": "TXN_000018",
+    "timestamp": "2025-09-18T18:15:19.864641",
+    "fraud_assessment": {
+      "probability": 0.811,
+      "risk_category": "HIGH",
+      "risk_score": 4,
+      "confidence_level": "HIGH",
+      "decision": "BLOCK"
+    },
+    "modality_analysis": {
+      "risk_score": 4,
+      "graph_score": 0.0,
+      "text_score": 1,
+      "behavioral_score": 0.4413,
+      "transaction_score": 0.0104
+    },
+    "risk_factors": [
+      "high_text_risk",
+      "high_overall_fraud_probability"
+    ],
+    "explanation": "High fraud probability (81.1%) detected across multiple indicators. High risk indicators in: text.",
+    "recommended_actions": [
+      "Manual review required",
+      "Additional authentication",
+      "Hold payment pending review"
+    ],
+    "investigation": {
+      "requires_human_review": true,
+      "priority_level": "HIGH",
+      "investigation_notes": [
+        "Primary concern: text analysis shows 100.0% risk",
+        "Communication analysis reveals suspicious content patterns"
+      ]
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.864641"
+    }
+  },
+  {
+    "transaction_id": "TXN_000019",
+    "timestamp": "2025-09-18T18:15:19.864971",
+    "fraud_assessment": {
+      "probability": 0.0196,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0003,
+      "text_score": 0,
+      "behavioral_score": 0.4155,
+      "transaction_score": 0.0065
+    },
+    "risk_factors": [
+      "normal_transaction_patterns"
+    ],
+    "explanation": "Low fraud probability (2.0%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.864971"
+    }
+  },
+  {
+    "transaction_id": "TXN_000020",
+    "timestamp": "2025-09-18T18:15:19.865280",
+    "fraud_assessment": {
+      "probability": 0.0392,
+      "risk_category": "LOW",
+      "risk_score": 1,
+      "confidence_level": "HIGH",
+      "decision": "APPROVE"
+    },
+    "modality_analysis": {
+      "risk_score": 1,
+      "graph_score": 0.0001,
+      "text_score": 0,
+      "behavioral_score": 0.4316,
+      "transaction_score": 0.0164
+    },
+    "risk_factors": [
+      "normal_transaction_patterns"
+    ],
+    "explanation": "Low fraud probability (3.9%) indicates normal transaction.",
+    "recommended_actions": [
+      "Process normally",
+      "Standard monitoring"
+    ],
+    "investigation": {
+      "requires_human_review": false,
+      "priority_level": "LOW",
+      "investigation_notes": []
+    },
+    "model_info": {
+      "model_used": "weighted_ensemble",
+      "model_version": "2.0",
+      "processing_timestamp": "2025-09-18T18:15:19.865280"
+    }
+  }
+]

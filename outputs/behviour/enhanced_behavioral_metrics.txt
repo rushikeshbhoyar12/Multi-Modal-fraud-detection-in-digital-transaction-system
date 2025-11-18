@@ -1,0 +1,81 @@
+=== ENHANCED BEHAVIORAL FRAUD DETECTION RESULTS ===
+
+Dataset Information:
+- Total samples: 1760
+- Features extracted: 42
+- Data sources: ['raw']
+
+Model Performance Comparison:
+- HistGradientBoosting:
+  * AUC: 0.642541
+  * F1-Score: 0.591017
+  * Optimal Threshold: 0.552922
+  * TN=142, FP=78, FN=95, TP=125
+  * Best Parameters: {'clf__learning_rate': 0.15, 'clf__max_depth': 8, 'clf__max_iter': 200}
+
+- RandomForest:
+  * AUC: 0.690269
+  * F1-Score: 0.555874
+  * Optimal Threshold: 0.554970
+  * TN=188, FP=32, FN=123, TP=97
+  * Best Parameters: {'clf__max_depth': 15, 'clf__min_samples_split': 2, 'clf__n_estimators': 300}
+
+- XGBoost-like:
+  * AUC: 0.659236
+  * F1-Score: 0.659919
+  * Optimal Threshold: 0.294379
+  * TN=109, FP=111, FN=57, TP=163
+  * Best Parameters: {'clf__learning_rate': 0.1, 'clf__max_depth': 8, 'clf__n_estimators': 200}
+
+- NeuralNetwork:
+  * AUC: 0.641157
+  * F1-Score: 0.618938
+  * Optimal Threshold: 0.655119
+  * TN=141, FP=79, FN=86, TP=134
+  * Best Parameters: {'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (200, 100), 'clf__learning_rate_init': 0.001}
+
+Best Model: RandomForest
+
+Selected Features:
+ 1. dwell_mean
+ 2. dwell_std
+ 3. dwell_median
+ 4. dwell_q25
+ 5. dwell_q75
+ 6. dwell_skew
+ 7. dwell_kurtosis
+ 8. flight_mean
+ 9. flight_std
+10. flight_median
+11. flight_q25
+12. flight_q75
+13. flight_skew
+14. flight_kurtosis
+15. typing_speed
+16. total_typing_time
+17. keystroke_count
+18. rhythm_consistency
+19. timing_variance
+20. rhythm_entropy
+21. temporal_regularity
+22. dwell_flight_ratio
+23. dwell_consistency
+24. flight_consistency
+25. traj_mean
+26. traj_std
+27. traj_median
+28. traj_total
+29. traj_max
+30. traj_min
+31. velocity_mean
+32. velocity_std
+33. velocity_max
+34. velocity_median
+35. accel_mean
+36. accel_std
+37. accel_max
+38. movement_count
+39. direction_changes
+40. avg_direction_changes
+41. velocity_traj_ratio
+42. accel_velocity_ratio

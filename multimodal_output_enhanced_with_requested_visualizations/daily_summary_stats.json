@@ -1,0 +1,17 @@
+{
+  "total_transactions_analyzed": 132,
+  "high_risk_transactions": 13,
+  "blocked_transactions": 11,
+  "manual_review_required": 13,
+  "average_fraud_probability": 0.13036136363636364,
+  "top_risk_factors": {
+    "normal_transaction_patterns": 52,
+    "moderate_behavioral_risk": 52,
+    "high_text_risk": 14,
+    "high_graph_risk": 11,
+    "high_overall_fraud_probability": 9,
+    "high_behavioral_risk": 6,
+    "elevated_fraud_probability": 4,
+    "moderate_graph_risk": 1
+  }
+}

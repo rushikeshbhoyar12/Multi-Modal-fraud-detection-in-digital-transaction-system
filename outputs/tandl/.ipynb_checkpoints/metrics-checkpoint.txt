@@ -1,0 +1,4 @@
+AUC_location=0.72520
+AUC_transaction=0.77078
+AUC_stacked=0.81087
+best_threshold=0.024459
