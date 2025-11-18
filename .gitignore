@@ -1,0 +1,18 @@
+# Create/update .gitignore
+@"
+# Data files (large, should be downloaded separately)
+data/*.csv
+elliptic_bitcoin_dataset/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+"@ | Out-File .gitignore -Encoding UTF8
+
+# Commit and push
+git add .gitignore
+git commit -m "Add .gitignore to prevent large CSV files from being committed"
+git push origin main
