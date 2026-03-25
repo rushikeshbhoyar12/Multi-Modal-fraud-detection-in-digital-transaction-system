@@ -15,4 +15,4 @@ venv/
 # Commit and push
 git add .gitignore
 git commit -m "Add .gitignore to prevent large CSV files from being committed"
-git push origin main
+git push origin maindata/
